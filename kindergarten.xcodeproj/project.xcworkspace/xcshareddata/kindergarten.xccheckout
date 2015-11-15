@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DD488E61-236D-4CE3-973A-38AAF5C1B680</string>
+	<key>IDESourceControlProjectName</key>
+	<string>kindergarten</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>806280034EC66F7A65518E1B3A28EE22E58A0C8D</key>
+		<string>https://github.com/baikaishuili/kindgarten.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>kindergarten.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>806280034EC66F7A65518E1B3A28EE22E58A0C8D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/baikaishuili/kindgarten.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>806280034EC66F7A65518E1B3A28EE22E58A0C8D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>806280034EC66F7A65518E1B3A28EE22E58A0C8D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>kindgarten</string>
+		</dict>
+	</array>
+</dict>
+</plist>

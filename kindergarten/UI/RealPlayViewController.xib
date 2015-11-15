@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6221" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6213"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RealPlayViewController">
+            <connections>
+                <outlet property="playView" destination="AeW-Ja-1Pq" id="KYG-Cj-Gnn"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AeW-Ja-1Pq">
+                    <rect key="frame" x="0.0" y="64" width="320" height="330"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="600" id="dik-Hc-S6H"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C5v-uk-erf">
+                    <rect key="frame" x="85" y="402" width="70" height="27"/>
+                    <color key="backgroundColor" red="1" green="0.29031192369999997" blue="0.312932879" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="停止">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="stopBtnClick:" destination="-1" eventType="touchUpInside" id="PKp-ue-57l"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T2g-LC-N8h">
+                    <rect key="frame" x="5" y="402" width="70" height="27"/>
+                    <color key="backgroundColor" red="0.19215686269999999" green="0.61176470589999998" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="预览">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="realplayBtnClick:" destination="-1" eventType="touchUpInside" id="qoT-46-Z7I"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Xf-UX-1dm">
+                    <rect key="frame" x="165" y="402" width="70" height="27"/>
+                    <color key="backgroundColor" red="0.7458724229" green="0.85232990590000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="打开声音">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="onClickOpenSound:" destination="-1" eventType="touchUpInside" id="Ud8-a4-yeW"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ebt-JB-96J">
+                    <rect key="frame" x="235" y="399" width="46" height="30"/>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a2H-um-kFo">
+                    <rect key="frame" x="245" y="402" width="70" height="27"/>
+                    <color key="backgroundColor" red="0.7458724229" green="0.85232990590000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="关闭声音">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="onClickCloseSound:" destination="-1" eventType="touchUpInside" id="j0Z-c2-mx2"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <point key="canvasLocation" x="321" y="322"/>
+        </view>
+    </objects>
+</document>
