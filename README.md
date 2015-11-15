@@ -1,3 +1,3 @@
-# newkindgarten
+# kindgarten
+kindgarten video monitor is a test
 
-this is a iphone app
